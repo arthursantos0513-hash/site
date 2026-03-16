@@ -1,0 +1,140 @@
+body{
+    margin: 0; 
+    font-family: 'Segoe UI', sans-serif;
+    background-color: whitesmoke; 
+    color: black;
+
+}
+
+.menu{
+    background-color: rgb(79, 60, 255); 
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000; 
+    box-shadow: 0 2px 10px rgb(33, 31, 65);
+
+}
+
+.menu-container{
+    max-width: 1000;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.menu-logo{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+nav ul li a{
+    color: whitesmoke;
+    text-decoration: wavy;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+.lista{
+    text-decoration:none ;
+    display: inline-block;
+    margin-right: 1.5rem;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.lista :hover{
+    text-decoration: underline;
+    color: rgb(255, 0, 0);
+}
+.cabeçalho{
+    background-color: rgb(74, 76, 207);
+    color: whitesmoke;
+    padding: 60px 20px;
+    text-align: center;
+    
+
+
+}
+.cabeçalho h1{
+    font-size: 2.5rem;
+    margin-bottom: 5px;
+}
+.cabeçalho h2{
+    font-weight: 300;
+    font-style: italic;
+    color: gold;
+
+}
+.imagem{
+    border-radius: 10px;
+}
+.principal{
+    max-width: 900px;
+    margin: -40px auto 40px;
+    padding: 20px;
+}
+.missao-valores{
+    background-color: aliceblue;
+    border-radius: 15px;
+    box-shadow: 0 2px 10px black;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.objetivo{ 
+    background-color: aliceblue;
+    border-radius:15px;
+    box-shadow: 0 2px 10px black;
+    padding: 20px;
+    margin-bottom: 20px;
+
+}
+.arrecadaçoes{
+    background-color: aliceblue;
+    border-radius: 15px;
+    box-shadow: 0 2px 10px black;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+.encerramento{
+    background-color: aliceblue;
+    border-radius: 10px;
+    border-left: 5px solid blue;
+    padding: 20px;
+    display:inline-block;
+    margin-right: 20px;
+    box-shadow: 0 2px 5px;
+}
+.atividade-container{
+    background-color: aliceblue;
+    padding: 30px;
+    box-shadow: 0 2px 10px black;
+    border-radius: 15px;
+}
+.doaçao{
+    margin-bottom: 10px;
+    background-color: aliceblue;
+    padding: 12px;
+    border-radius: 10px;
+    border-left: 5px solid rgb(28, 207, 81);
+    font-weight: bold;
+}
+.hora{
+    font-size: 1.2rem;
+    display: block;
+    margin-bottom: 15px;
+    color:rgb(28, 207, 81);
+    background-color:aquamarine;
+    padding: 10px;
+    border-radius: 10px 15px;
+    margin-right: 80%;
+    box-shadow: 0 2px 5px black;
+
+}
