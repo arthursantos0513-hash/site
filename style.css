@@ -138,3 +138,49 @@ nav ul li a{
     box-shadow: 0 2px 5px black;
 
 }
+.texto-introdução{
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: justify;
+    background-color: whitesmoke;
+    box-shadow: 0 2px 5px black;
+    border-radius: 12px;
+    padding: 20px;
+}
+.listadevalores{
+    list-style: none;
+    padding: 10px;
+    background: rgb(183, 126, 236);
+    margin-bottom: 10px;
+    border-left: 3px solid blueviolet;
+    border-radius: 12px;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+.listadevaloresul{
+    padding: 20px;
+    background: whitesmoke;
+    box-shadow: 0 2px 5px black;
+    border-radius: 12px;
+
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: whitesmoke;
+}
+th,td{
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+th{
+    background-color: blueviolet;
+}
+.boxamarela{
+    width: 25px;
+    height: 25px;
+    border-radius: 4px;
+    background:yellow;
+}
