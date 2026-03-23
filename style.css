@@ -1,7 +1,7 @@
 body{
     margin: 0; 
     font-family: 'Segoe UI', sans-serif;
-    background-color: whitesmoke; 
+    background-color:lightgrey; 
     color: black;
 
 }
@@ -77,6 +77,8 @@ nav ul li a{
     max-width: 900px;
     margin: -40px auto 40px;
     padding: 20px;
+    background-color: lightgrey;
+    border-radius: 20px;
 }
 .missao-valores{
     background-color: aliceblue;
@@ -169,18 +171,63 @@ table{
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
-    background-color: whitesmoke;
+    background-color: aliceblue;
 }
 th,td{
     padding: 15px;
     border-bottom: 1px solid #ddd;
 }
 th{
-    background-color: blueviolet;
+    background-color: rgb(69, 87, 255);
 }
 .boxamarela{
     width: 25px;
     height: 25px;
     border-radius: 4px;
     background:yellow;
+}
+.listad{
+    background-color:aliceblue;
+    list-style: none;
+    padding:15px;
+    box-shadow: 0 2px black;
+
+}
+.suplementos{
+    border-left: 3px solid red;
+    background-color:aliceblue;
+    box-shadow: 0 2px red;
+    border-radius: 15px;
+
+}
+.amarelo{
+    color: black;
+}
+.thing{
+    background-color: aliceblue;
+    border-left: 3px solid green;
+    box-shadow: 0 2px green;
+    border-radius: 15px;
+    padding: 10px;
+}
+.blood{
+    background-color:aliceblue;
+    border-left: 3px solid red;
+    box-shadow: 0 2px red;
+    border-radius: 15px;
+    padding: 10px;
+
+}
+.xp{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.seek{
+    background-color:aliceblue;
+    border-left: 3px solid rgb(69, 87, 255);
+    box-shadow: 0 2px rgb(69, 87, 255);
+    border-radius: 15px;
+    padding: 10px;
+
 }
