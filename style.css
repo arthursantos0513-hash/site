@@ -145,9 +145,10 @@ nav ul li a{
     margin-bottom: 20px;
     text-align: justify;
     background-color: whitesmoke;
-    box-shadow: 0 2px 5px black;
+    box-shadow: 0 2px blue;
     border-radius: 12px;
     padding: 20px;
+    border-left: 3px solid blue;
 }
 .listadevalores{
     list-style: none;
@@ -165,6 +166,8 @@ nav ul li a{
     background: whitesmoke;
     box-shadow: 0 2px 5px black;
     border-radius: 12px;
+    border-left: 3px solid blueviolet;
+    box-shadow: 0 2px blueviolet;
 
 }
 table{
