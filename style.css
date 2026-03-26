@@ -56,9 +56,6 @@ nav ul li a{
     color: whitesmoke;
     padding: 60px 20px;
     text-align: center;
-    
-
-
 }
 .cabeçalho h1{
     font-size: 2.5rem;
@@ -68,7 +65,6 @@ nav ul li a{
     font-weight: 300;
     font-style: italic;
     color: gold;
-
 }
 .imagem{
     border-radius: 10px;
@@ -93,7 +89,6 @@ nav ul li a{
     box-shadow: 0 2px 10px black;
     padding: 20px;
     margin-bottom: 20px;
-
 }
 .arrecadaçoes{
     background-color: aliceblue;
@@ -103,7 +98,6 @@ nav ul li a{
     margin-bottom: 20px;
     display: flex;
     justify-content: center;
-
 }
 .encerramento{
     background-color: aliceblue;
@@ -138,7 +132,6 @@ nav ul li a{
     border-radius: 10px 15px;
     margin-right: 80%;
     box-shadow: 0 2px 5px black;
-
 }
 .texto-introdução{
     line-height: 1.6;
@@ -159,7 +152,6 @@ nav ul li a{
     border-radius: 12px;
     width: 100%;
     box-sizing: border-box;
-
 }
 .listadevaloresul{
     padding: 20px;
@@ -168,7 +160,6 @@ nav ul li a{
     border-radius: 12px;
     border-left: 3px solid blueviolet;
     box-shadow: 0 2px blueviolet;
-
 }
 table{
     width: 100%;
@@ -193,15 +184,15 @@ th{
     background-color:aliceblue;
     list-style: none;
     padding:15px;
-    box-shadow: 0 2px black;
-
+    box-shadow: 0 2px rgb(69, 87, 255);
+    border-left: 3px solid rgb(69, 87, 255);
+    border-radius: 15px;
 }
 .suplementos{
     border-left: 3px solid red;
     background-color:aliceblue;
     box-shadow: 0 2px red;
     border-radius: 15px;
-
 }
 .amarelo{
     color: black;
@@ -219,7 +210,6 @@ th{
     box-shadow: 0 2px red;
     border-radius: 15px;
     padding: 10px;
-
 }
 .xp{
     display: flex;
@@ -239,5 +229,40 @@ footer{
     color: whitesmoke;
     padding: 30px 20px;
     text-align: center;
+    font-size: 17px;
+}
+.cronus{
+    margin-bottom: 25px;
+    position: relative;
 
+}
+.cronus ::before{ /*criação de elemeto fantasma*/
+    content: ""; /*modo arquiteto*/
+    width: 12px;
+    height: 12px;
+    background: orangered;
+    border-radius: 50%;
+    position: absolute;
+    left:-13px;
+    top:5px;
+}
+.timeline{
+    border-left: 3px solid blue;
+    padding-left: 5px;
+    margin-bottom :20px;
+}
+.gridlocals{
+    display: flex;
+    gap: 20px;
+}
+.unidade{
+    flex: 1;
+    background: gray;
+    border-radius: 8px;
+    padding: 15px;
+    border: 1px solid black;
+}
+.unidade h4{
+    color:blue;
+    margin-top: 0;
 }
