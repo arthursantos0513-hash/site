@@ -73,8 +73,9 @@ nav ul li a{
     max-width: 900px;
     margin: -40px auto 40px;
     padding: 20px;
-    background-color: lightgrey;
+    background-color: whitesmoke;
     border-radius: 20px;
+    box-shadow: 0 2px black;
 }
 .missao-valores{
     background-color: aliceblue;
@@ -187,6 +188,7 @@ th{
     box-shadow: 0 2px rgb(69, 87, 255);
     border-left: 3px solid rgb(69, 87, 255);
     border-radius: 15px;
+    margin-bottom: 20px;
 }
 .suplementos{
     border-left: 3px solid red;
@@ -261,8 +263,37 @@ footer{
     border-radius: 8px;
     padding: 15px;
     border: 1px solid black;
+    margin-bottom: 20px;
 }
 .unidade h4{
     color:blue;
     margin-top: 0;
+}
+.fgrid{
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+button{
+    background-color: #27ae60;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.resultadobx{
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #eef5ff;
+    border-left: 5px solid #1e3c72;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100px;
 }
