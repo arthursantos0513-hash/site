@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8"> <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="scripts.js"> </script>
     <title>Trote Solidário</title>
 </head>
 <body>
@@ -22,8 +23,27 @@
         </div><!--manu de navegação-->
     </nav>
     <main class="principal">
-        <section class="calculadora">
-            <h3> Simulador de Pontuação</h3>
+        <section class="listad">
+            <h3>Simulador de Metas Batidas</h3>
+            <div class="fgrid">
+                <label for=" "> Kit Alimentação (60 Kits)</label>
+                <input type="number" id="kit" min="0">
+            </div>
+            <div class="fgrid">
+                <label for=" ">Suplementos (30 Latas)</label>
+                <input type="number" id="suplem" min="0">
+            </div>
+            <div class="fgrid">
+                <label for=" ">Leite (60 Latas)</label>
+                <input type="number" id="leite" min="0">
+            </div>
+            <div class="fgrid">
+                <label for=" ">Doação de Sangue (30 Doações)</label>
+                <input type="number" id="sangue" min="0">
+            </div>
+        </section>
+        <section class="listad">
+            <h3> Simulador de Pontuação - Itens Avulsos</h3>
             <div class="fgrid">
                 <label for=" "> Arroz(5kg) - 10pts</label>
                 <input type="number" id="qtarroz" min="0">
@@ -33,16 +53,18 @@
                 <input type="number" id="qtfeijao" min="0">
             </div>
              <div class="fgrid">
-                <label for=" "> Óleo(5kg) - 12pts</label>
+                <label for=" "> Óleo(900ml) - 4pts</label>
                 <input type="number" id="qtoleo" min="0">
             </div>
              <div class="fgrid">
-                <label for=" "> Macarrão(5kg) - 5pts</label>
+                <label for=" "> Macarrão(500g) - 2pts</label>
                 <input type="number" id="qtmacarrao" min="0">
             </div>
+        </section>
+        <section>
             <button onclick="calcular()"> Calcular Total da Equipe</button>
             <div id="resultado" class="resultadobx">
-                Pontuação Total: 
+            Pontuação Total: 
             </div>
         </section>
     </main>
@@ -50,15 +72,5 @@
         <p> Cordenação Trote Solidário 2026: trotessolidario@facef.br</p> 
         <p>Uni-FACEF - Centro Universitário de Franca</p>
     </footer>
-    <script><!--programar java-->/*JS é linguagem ñ tipada*/
-    function calcular(){
-       let qtarroz = Number(document.getElementById("qtarroz").value)
-       let qtfeijao = Number(document.getElementById("qtfeijao").value)
-       let qtoleo = Number(document.getElementById("qtoleo").value)
-       let qtmacarrao = Number(document.getElementById("qtmacarrao").value)
-       let pts = (qtarroz * 10) + (qtfeijao * 8) + (qtoleo * 12) + (qtmacarrao * 5)
-       document.getElementById("resultado").InnerText = "Pontuação Total: " + pts + "pts"
-    }
-    </script>
 </body>
 </html>
