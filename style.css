@@ -297,3 +297,57 @@ input {
     border: 1px solid #ccc;
     width: 100px;
 }
+select{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100px;
+}
+.boxcinza{
+    width: 25px;
+    height: 25px;
+    border-radius: 4px;
+    background:gray;
+}
+.boxalaranja{
+    width: 25px;
+    height: 25px;
+    border-radius: 4px;
+    background:orange;
+}
+.boxlescura{
+    width: 25px;
+    height: 25px;
+    border-radius: 4px;
+    background:orangered;
+}
+.boxpreto{
+    width: 25px;
+    height: 25px;
+    border-radius: 4px;
+    background:black;
+}
+.boxrosa{
+    width: 25px;
+    height: 25px;
+    border-radius: 4px;
+    background: pink;
+}
+.boxroxa{
+    width: 25px;
+    height: 25px;
+    border-radius: 4px;
+    background:purple;
+}
+.boxverde{
+    width: 25px;
+    height: 25px;
+    border-radius: 4px;
+    background:green;
+}
+.boxvermelho{
+    width: 25px;
+    height: 25px;
+    border-radius: 4px;
+    background:red;
+}
