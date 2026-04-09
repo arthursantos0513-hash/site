@@ -5,7 +5,6 @@ function calcular(){
       let qtmacarrao = Number(document.getElementById("qtmacarrao").value)
 
       let pts = (qtarroz * 10) + (qtfeijao * 8) + (qtoleo * 4) + (qtmacarrao * 2)
-      let kit = Number(document.getElementById("kit").value)
       let suplem = Number(document.getElementById("suplem").value)
       let leite = Number(document.getElementById("leite").value)
       let sangue = Number(document.getElementById("sangue").value)
