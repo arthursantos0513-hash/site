@@ -224,7 +224,9 @@ th{
     box-shadow: 0 2px rgb(69, 87, 255);
     border-radius: 15px;
     padding: 10px;
-
+    max-width: 900px;
+    margin: 30px auto 30px;
+    padding: 20px;
 }
 footer{
     background-color: rgb(74, 76, 207);
@@ -350,4 +352,14 @@ select{
     height: 25px;
     border-radius: 4px;
     background:red;
+}
+.seek1{
+    background-color:aliceblue;
+    border-left: 3px solid rgb(69, 87, 255);
+    box-shadow: 0 2px rgb(69, 87, 255);
+    border-radius: 15px;
+    padding: 10px;
+    max-width: 900px;
+    margin: -40px auto 30px;
+    padding: 20px;
 }
